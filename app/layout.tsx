@@ -8,7 +8,7 @@ import CardSlider from './components/CardSlider/CardSlider'
 import Footer from './components/Footer/Footer'
 import './globals.css'
 
-export default function RootLayout({ children }) {
+export default function RootLayout() {
   return (
     <html lang="en">
       <body>
@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <Services />
         <CardSlider />
         <Footer />
-        <main>{children}</main>
+        
       </body>
     </html>
   )
