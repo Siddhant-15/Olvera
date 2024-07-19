@@ -1,0 +1,44 @@
+.card-slider-container {
+    position: relative;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 1.5rem;
+}
+
+.card-image {
+    transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+
+    .swiper-button-next::after,
+    .swiper-button-prev::after {
+        font-size: 1.2rem;
+    }
+}

@@ -1,0 +1,17 @@
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./img/large.png');
+    top: 100px;
+}
+
+@media (max-width: 767px) {
+    .hero {
+        background-image: url('./img/small.png');
+    }
+}
