@@ -1,12 +1,12 @@
 "use client";
 
 import { Swiper, SwiperSlide } from 'swiper/react';
-import SwiperCore, { Navigation } from 'swiper';
+import SwiperCore from 'swiper';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import Image from 'next/image';
 
-SwiperCore.use([Navigation]);
+
 
 const CardSlider = () => {
     const slides = [
